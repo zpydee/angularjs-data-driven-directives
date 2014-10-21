@@ -21,7 +21,6 @@ angular.module('DataDrivenDirectives').directive('lineChart', function(LineChart
                 element: element[0]
             });
             view.render();
-           
         };
 
         // Using a single chartoptions directive attribute instead of one for each
